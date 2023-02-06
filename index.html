@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Goldy Store</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__content">
+            <div class="header__info_left-hand">
+                <div class="header__location">
+                    <div class="custom-select" style="width: 197px;">
+                        <a class="header__img-location"></a>
+                        <select>
+                            <option value="0">Санкт-Петербург</option>
+                            <option value="1">Санкт-Петербург</option>
+                            <option value="2">Владикавказ</option>
+                            <option value="3">Сочи</option>
+                            <option value="4">Москва</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div data-da="navigation,8,780" class="header__phone-hover">
+                    <a class="header__img_phone"></a>
+                    <p class="header__phone">
+                        8 800 785-25-35
+                    </p>
+                </div>
+            </div>
+            <a href="#"><img src="img/header/logo.svg" class="header__logo"></a>
+            <div class="header__info_right-hand">
+                <div data-da="navigation,7,600" class="header__account">
+                    <p class="header__login">
+                        Вход
+                    </p>
+                    <img src="img/header/Line.svg" class="header__img_vertical-line">
+                    <p class="header__register">
+                        Регистрация
+                    </p>
+                </div>
+                <div data-da="navigation,10,780" class="header__icons">
+                    <img src="img/header/favorite.svg" class="header__img_like">
+                    <img src="img/header/like.svg" class="header__img_like-counter">
+                    <img src="img/header/chart.svg" class="header__img_scale">
+                    <img src="img/header/bag.svg" class="header__img_bag">
+                </div>
+            </div>
+        </div>
+        <div class="header__burger">
+            <span></span>
+        </div>
+        <nav class="navigation">
+            <a class="navigation__section navigation_active" href="#">Каталог</a>
+            <a class="navigation__section" href="#">Акции</a>
+            <a class="navigation__section" href="#">Бренды</a>
+            <a class="navigation__section" href="#">Магазины</a>
+            <a class="navigation__section" href="#">О нас</a>
+            <a class="navigation__section" href="#">Доставка и оплата</a>
+            <a class="navigation__section" href="#">Статьи</a>
+            <div data-da="navigation,9,780" class="search-wrapper">
+                <img class="navigation__separate" src="img/header/Line9.svg">
+                <img class="search-icon" src="img/header/Union.svg">
+                <input class="search" type="text" placeholder="Поиск по сайту">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="slider">
+            <div class="slider-item">
+                <div class="slider__promo">
+                    <h1 class="slider__text1">Суперскидка до 60%</h1>
+                    <h2 class="slider__text2">НА БРИЛЛИАНТЫ</h2>
+                    <button class="slider__btn">Подробнее</button>
+                </div>
+                <img class="slider__img" src="img/swiper/swiperRing.png">
+                <img class="slider__img_diamond" src="img/swiper/swiper.svg">
+            </div>
+
+            <div class="slider-item">
+                <div class="slider__promo">
+                    <h1 class="slider__text1">Суперскидка до 60%</h1>
+                    <h2 class="slider__text2">НА БРИЛЛИАНТЫ</h2>
+                    <button class="slider__btn">Подробнее</button>
+                </div>
+                <img class="slider__img" src="img/swiper/swiperRing.png">
+                <img class="slider__img_diamond" src="img/swiper/swiper.svg">
+            </div>
+
+            <div class="slider-item">
+                <div class="slider__promo">
+                    <h1 class="slider__text1">Суперскидка до 60%</h1>
+                    <h2 class="slider__text2">НА БРИЛЛИАНТЫ</h2>
+                    <button class="slider__btn">Подробнее</button>
+                </div>
+                <img class="slider__img" src="img/swiper/swiperRing.png">
+                <img class="slider__img_diamond" src="img/swiper/swiper.svg">
+            </div>
+        </section>
+        <section class="categories">
+            <h2 class="categories__title">Популярные категории</h2>
+            <div class="categories__container">
+                <div class="category">
+                    <img src="img/popular_categories/rings.png" class="category__img">
+                    <p class="category__name">Кольца</p>
+                </div>
+                <div class="category">
+                    <img src="img/popular_categories/earrings.png" class="category__img">
+                    <p class="category__name">Серьги</p>
+                </div>
+                <div class="category">
+                    <img src="img/popular_categories/wedding_rings.png" class="category__img">
+                    <p class="category__name">Помолвочные<br>кольца</p>
+                </div>
+                <div class="category">
+                    <img src="img/popular_categories/bracers.png" class="category__img">
+                    <p class="category__name">Браслеты</p>
+                </div>
+                <div class="category">
+                    <img src="img/popular_categories/necklace.png" class="category__img">
+                    <p class="category__name">Колье и подвески</p>
+                </div>
+                <div class="category">
+                    <img src="img/popular_categories/watches.png" class="category__img">
+                    <p class="category__name">Часы</p>
+                </div>
+            </div>
+        </section>
+        <section class="sale">
+            <h2 class="sale__title">Распродажа</h2>
+            <div class="sale__categories">
+                <button class="sale__category sale__category_active">Кольца</button>
+                <button class="sale__category">Серьги</button>
+                <button class="sale__category">Браслеты</button>
+                <button class="sale__category">Часы</button>
+            </div>
+            <div class="sale__products">
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring1.png" class="product-item__img">
+                        <img src="img/sale/ring1.png" class="product-item__img">
+                        <img src="img/sale/ring1.png" class="product-item__img">
+                    </div>
+                    <span class="price">41 000 ₽<span class="price__discount">65 000 ₽</span></span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <img class="product-item__sale" src="img/sale/sale.svg">
+                    <img class="product-item__discount" src="img/sale/discount.svg">
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring2.png" class="product-item__img">
+                        <img src="img/sale/ring2.png" class="product-item__img">
+                        <img src="img/sale/ring2.png" class="product-item__img">
+                    </div>
+                    <span class="price">56 000 ₽</span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring3.png" class="product-item__img">
+                        <img src="img/sale/ring3.png" class="product-item__img">
+                        <img src="img/sale/ring3.png" class="product-item__img">
+                    </div>
+                    <span class="price">37 500 ₽</span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring4.png" class="product-item__img">
+                        <img src="img/sale/ring4.png" class="product-item__img">
+                        <img src="img/sale/ring4.png" class="product-item__img">
+                    </div>
+                    <span class="price">39 200 ₽</span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring1.png" class="product-item__img">
+                        <img src="img/sale/ring1.png" class="product-item__img">
+                        <img src="img/sale/ring1.png" class="product-item__img">
+                    </div>
+                    <span class="price">41 000 ₽<span class="price__discount">65 000 ₽</span></span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <img class="product-item__sale" src="img/sale/sale.svg">
+                    <img class="product-item__discount" src="img/sale/discount.svg">
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring2.png" class="product-item__img">
+                        <img src="img/sale/ring2.png" class="product-item__img">
+                        <img src="img/sale/ring2.png" class="product-item__img">
+                    </div>
+                    <span class="price">56 000 ₽</span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring3.png" class="product-item__img">
+                        <img src="img/sale/ring3.png" class="product-item__img">
+                        <img src="img/sale/ring3.png" class="product-item__img">
+                    </div>
+                    <span class="price">37 500 ₽</span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-slider">
+                        <img src="img/sale/ring4.png" class="product-item__img">
+                        <img src="img/sale/ring4.png" class="product-item__img">
+                        <img src="img/sale/ring4.png" class="product-item__img">
+                    </div>
+                    <span class="price">39 200 ₽</span>
+                    <h3 class="product-item__caption">Стильное кольцо из белого золота c бриллиантами</h3>
+                    <button class="like-btn"></button>
+                    <button class="seen-btn"></button>
+                    <div class="container">
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Белое золото</option>
+                                <option value="1">Белое золото</option>
+                                <option value="2">Желтое золото</option>
+                                <option value="3">Серебро</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" data-container="body">
+                            <select>
+                                <option value="0">Размер 16</option>
+                                <option value="1">Размер 16</option>
+                                <option value="2">Размер 17</option>
+                                <option value="3">Размер 18</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discount">
+                <div class="discount__box">
+                    <h2 class="discount__title">Скидки<br>на все украшения<br>с бриллиантами</h2>
+                    <img class="discount__deal" src="img/sale/discount50.svg">
+                    <img class="discount__img1" src="img/sale/diamond.png">
+                    <img class="discount__diamond" src="img/sale/discountBg.svg">
+                </div>
+                <div class="discount__box">
+                    <h2 class="discount__title">Скидки<br>на кольца<br>и браслеты</h2>
+                    <img class="discount__deal" src="img/sale/discount40.svg">
+                    <img class="discount__img2" src="img/sale/bracers_rings.png">
+                    <img class="discount__diamond" src="img/sale/discountBg.svg">
+                </div>
+                <div class="discount__box">
+                    <h2 class="discount__title">снижение цен<br>на обручальные<br>кольца</h2>
+                    <img class="discount__deal" src="img/sale/discount60.svg">
+                    <img class="discount__img3" src="img/sale/rings.png">
+                    <img class="discount__diamond" src="img/sale/discountBg.svg">
+                </div>
+
+            </div>
+        </section>
+        <section class="product-of-the-day">
+            <h2 class="product-of-the-day__title">Товар дня</h2>
+            <div class="product__box-slider">
+                <div class="product__box">
+                    <div class="product__slider">
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                    </div>
+                    <div class="product__info">
+                        <div class="product__stars-rating">
+                            <img class="stars-rating" src="img/dayProduct/stars.svg">
+                            <p class="rating">4,2</p>
+                        </div>
+                        <h3 class="product-title">Кольцо из золота с бриллиантами</h3>
+                        <p class="product-code">Артикул: 1012076</p>
+                        <p class="product__price">22 000 ₽<span class="product__price_discount">22 000 ₽</span></p>
+                        <div class="product-timer countdown">
+                        </div>
+                        <img class="product-discount" src="img/dayProduct/discount.svg">
+                        <img class="product__sep-line" src="img/dayProduct/line.svg">
+                        <p class="product__color">цвет</p>
+                        <div class="color-list">
+                            <button class="color-button"><span class="color__gray"></span></button>
+                            <button class="color-button color-button_active"><span
+                                    class="color__yellow"></span></button>
+                            <button class="color-button"><span class="color__orange"></span></button>
+                            <button class="color-button"><span class="color__light-green"></span></button>
+                        </div>
+                        <p class="product__size">Размер<button class="size__info"></button></p>
+                        <div class="size-list">
+                            <button class="size-button size-button_active">16,5</button>
+                            <button class="size-button">17,5</button>
+                            <button class="size-button">18,5</button>
+                            <button class="size-button">19</button>
+                            <button class="size-button">19,5</button>
+                            <button class="size-button">19,5</button>
+                            <button class="size-button">18,5</button>
+                            <button class="size-button">19</button>
+                            <button class="size-button size-button_inactive">19,5</button>
+                            <button class="size-button size-button_inactive">19,5</button>
+                        </div>
+                        <div class="product__action">
+                            <button class="product__buy-btn">в корзину</button>
+                            <button class="product__quick-buy-btn">купить в 1 клик</button>
+                            <button class="product__save action-btn"><a
+                                    class="action-img action__like"></a>Сохранить</button>
+                            <button class="product__compare action-btn"><img src="img/dayProduct/chart.svg"
+                                    class="action-img">Сравнить</button>
+                            <button class="product__share action-btn"><img src="img/dayProduct/share.svg"
+                                    class="action-img">Поделиться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__box">
+                    <div class="product__slider">
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                    </div>
+                    <div class="product__info">
+                        <div class="product__stars-rating">
+                            <img class="stars-rating" src="img/dayProduct/stars.svg">
+                            <p class="rating">4,2</p>
+                        </div>
+                        <h3 class="product-title">Кольцо из золота с бриллиантами</h3>
+                        <p class="product-code">Артикул: 1012076</p>
+                        <p class="product__price">22 000 ₽<span class="product__price_discount">22 000 ₽</span></p>
+                        <div class="product-timer countdown">
+                        </div>
+                        <img class="product-discount" src="img/dayProduct/discount.svg">
+                        <img class="product__sep-line" src="img/dayProduct/line.svg">
+                        <p class="product__color">цвет</p>
+                        <div class="color-list">
+                            <button class="color-button"><span class="color__gray"></span></button>
+                            <button class="color-button color-button_active"><span
+                                    class="color__yellow"></span></button>
+                            <button class="color-button"><span class="color__orange"></span></button>
+                            <button class="color-button"><span class="color__light-green"></span></button>
+                        </div>
+                        <p class="product__size">Размер<button class="size__info"></button></p>
+                        <div class="size-list">
+                            <button class="size-button size-button_active">16,5</button>
+                            <button class="size-button">17,5</button>
+                            <button class="size-button">18,5</button>
+                            <button class="size-button">19</button>
+                            <button class="size-button">19,5</button>
+                            <button class="size-button">19,5</button>
+                            <button class="size-button">18,5</button>
+                            <button class="size-button">19</button>
+                            <button class="size-button size-button_inactive">19,5</button>
+                            <button class="size-button size-button_inactive">19,5</button>
+                        </div>
+                        <div class="product__action">
+                            <button class="product__buy-btn">в корзину</button>
+                            <button class="product__quick-buy-btn">купить в 1 клик</button>
+                            <button class="product__save action-btn"><a
+                                    class="action-img action__like"></a>Сохранить</button>
+                            <button class="product__compare action-btn"><img src="img/dayProduct/chart.svg"
+                                    class="action-img">Сравнить</button>
+                            <button class="product__share action-btn"><img src="img/dayProduct/share.svg"
+                                    class="action-img">Поделиться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__box">
+                    <div class="product__slider">
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                        <div class="product__slider-item">
+                            <img class="product__img" src="img/dayProduct/ring.png">
+                            <img class="product__new" src="img/dayProduct/new.svg">
+                            <img class="product__popular" src="img/dayProduct/hit.svg">
+                            <img class="product__sale" src="img/dayProduct/sale.svg">
+                        </div>
+                    </div>
+                    <div class="product__info">
+                        <div class="product__stars-rating">
+                            <img class="stars-rating" src="img/dayProduct/stars.svg">
+                            <p class="rating">4,2</p>
+                        </div>
+                        <h3 class="product-title">Кольцо из золота с бриллиантами</h3>
+                        <p class="product-code">Артикул: 1012076</p>
+                        <p class="product__price">22 000 ₽<span class="product__price_discount">22 000 ₽</span></p>
+                        <div class="product-timer countdown">
+                        </div>
+                        <img class="product-discount" src="img/dayProduct/discount.svg">
+                        <img class="product__sep-line" src="img/dayProduct/line.svg">
+                        <p class="product__color">цвет</p>
+                        <div class="color-list">
+                            <button class="color-button"><span class="color__gray"></span></button>
+                            <button class="color-button color-button_active"><span
+                                    class="color__yellow"></span></button>
+                            <button class="color-button"><span class="color__orange"></span></button>
+                            <button class="color-button"><span class="color__light-green"></span></button>
+                        </div>
+                        <p class="product__size">Размер<button class="size__info"></button></p>
+                        <div class="size-list">
+                            <button class="size-button size-button_active">16,5</button>
+                            <button class="size-button">17,5</button>
+                            <button class="size-button">18,5</button>
+                            <button class="size-button">19</button>
+                            <button class="size-button">19,5</button>
+                            <button class="size-button">19,5</button>
+                            <button class="size-button">18,5</button>
+                            <button class="size-button">19</button>
+                            <button class="size-button size-button_inactive">19,5</button>
+                            <button class="size-button size-button_inactive">19,5</button>
+                        </div>
+                        <div class="product__action">
+                            <button class="product__buy-btn">в корзину</button>
+                            <button class="product__quick-buy-btn">купить в 1 клик</button>
+                            <button class="product__save action-btn"><a
+                                    class="action-img action__like"></a>Сохранить</button>
+                            <button class="product__compare action-btn"><img src="img/dayProduct/chart.svg"
+                                    class="action-img">Сравнить</button>
+                            <button class="product__share action-btn"><img src="img/dayProduct/share.svg"
+                                    class="action-img">Поделиться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="articles">
+            <h2 class="articles__title">Статьи</h2>
+            <div class="articles__container">
+                <div class="article">
+                    <img src="img/articles/article1.png" class="article__img">
+                    <p class="article__date">21 сентября 2021</p>
+                    <h3 class="article__name">Обручальные кольца: тренды 2021</h3>
+                </div>
+                <div class="article">
+                    <img src="img/articles/article2.png" class="article__img">
+                    <p class="article__date">25 сентября 2021</p>
+                    <h3 class="article__name">Главные ювелирные тренды года</h3>
+                </div>
+                <div class="article">
+                    <img src="img/articles/article3.png" class="article__img">
+                    <p class="article__date">21 сентября 2021</p>
+                    <h3 class="article__name">Жемчуг: 7 малоизвестных фактов о культовом украшении</h3>
+                </div>
+                <div class="article">
+                    <img src="img/articles/article4.png" class="article__img">
+                    <p class="article__date">21 сентября 2021</p>
+                    <h3 class="article__name">Как отличить золото от подделки: 10 практических советов</h3>
+                </div>
+                <button class="articles__more-btn">Читать все<img class="articles__more-btn_arrow"
+                        src="img/articles/arrow.svg"></button>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/dinamic_adaptive.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+
+</html>
